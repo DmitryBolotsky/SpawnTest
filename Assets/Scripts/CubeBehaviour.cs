@@ -1,13 +1,14 @@
+using System;
 using UnityEngine;
+using UnityEngine.UI;
 public class CubeBehaviour : MonoBehaviour
 {
     [SerializeField]
-    private float m_speed = 0.1f;
+    internal float m_speed = 0.1f;
     [SerializeField]
-    private float m_distance = 30.0f;
-
-    [SerializeField] 
-    public Transform m_spawnPoint;
+    internal float m_distance = 30.0f;
+    internal Transform m_spawnPoint;
+    
 
     
     void FixedUpdate()
@@ -22,9 +23,7 @@ public class CubeBehaviour : MonoBehaviour
             return;
         }
         var translation = new Vector3(1,0,0);
-        if (translation.magnitude > m_speed) {
-            translation = translation.normalized * m_speed;
-        }
+        translation = translation.normalized * m_speed;
         transform.Translate (translation);
         
     }
