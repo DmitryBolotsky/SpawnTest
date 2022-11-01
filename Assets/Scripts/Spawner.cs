@@ -31,6 +31,8 @@ public class Spawner : MonoBehaviour
         if (Time.time >= m_lastSpawn + m_interval)
         {
             var newCube = m_pool.GetFreeElement();
+            newCube.m_speed = m_cubePrefab.m_speed;
+            newCube.m_distance = m_cubePrefab.m_distance;
             newCube.transform.position = transform.position;
             
             m_lastSpawn = Time.time;

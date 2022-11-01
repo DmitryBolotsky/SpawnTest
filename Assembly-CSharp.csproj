@@ -54,8 +54,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\InputController.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
-     <Compile Include="Assets\Scripts\CubeBehaviour.cs" />
      <Compile Include="Assets\Scripts\PoolMono.cs" />
+     <Compile Include="Assets\Scripts\CubeBehaviour.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -649,6 +649,15 @@
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Users/bolot/Desktop/Unity/SpawnTest/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Recorder.Editor">
+ <HintPath>C:/Users/bolot/Desktop/Unity/SpawnTest/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Recorder">
+ <HintPath>C:/Users/bolot/Desktop/Unity/SpawnTest/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Recorder.Base">
+ <HintPath>C:/Users/bolot/Desktop/Unity/SpawnTest/Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
